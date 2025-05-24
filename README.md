@@ -46,12 +46,11 @@ To develop a real-time proctoring solution that:
 
 ## ⚙️ Setup Instructions
 
-# 1. Install Required Dependencies
+1. Install Required Dependencies
 pip install opencv-python cvzone pymysql easygui pdfminer.six pillow
 
-# 2. Set Up MySQL Databases
-# Open MySQL and run:
-
+2. Set Up MySQL Databases
+   
 CREATE DATABASE userdata;
 USE userdata;
 CREATE TABLE data (
@@ -69,6 +68,6 @@ CREATE TABLE files (
   contents LONGBLOB
 );
 
-# 3. Run the Application
+3. Run the Application
 python login.py
 
